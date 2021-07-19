@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/dzakygro/public_html/
+    - export DEPLOYPATH=/home/dzakygro/public_html/ci4-inventarisasi
     - /bin/cp composer.json $DEPLOYPATH
     - /bin/cp .gitignore $DEPLOYPATH
     - /bin/cp composer.lock $DEPLOYPATH
@@ -13,7 +13,7 @@ deployment:
     - /bin/cp -R .git $DEPLOYPATH
     - /bin/cp -R app $DEPLOYPATH
     - /bin/cp -R public $DEPLOYPATH
-    - /bin/cp -R test $DEPLOYPATH
+    - /bin/cp -R tests $DEPLOYPATH
     - /bin/cp -R writable $DEPLOYPATH
   
 
