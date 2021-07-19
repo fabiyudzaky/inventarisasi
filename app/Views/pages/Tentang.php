@@ -93,7 +93,7 @@
         <!-- kolom kiri -->
         <div class="col-5">
             <!-- card milik PHP -->
-            <div class="card m-auto pb-4 shadow" style="width: 24rem;">
+            <div class="card m-auto pb-4 border-0 shadow" style="width: 24rem;">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" class="card-img-top" alt="...">
                 <div class="card-body pb-2">
                     <p class="card-text">
@@ -121,7 +121,7 @@
 
         <!-- kolom kanan -->
         <div class="col-5">
-            <div class="card m-auto pb-4 shadow" style="width: 24rem;">
+            <div class="card m-auto pb-4 border-0 shadow" style="width: 24rem;">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PhpMyAdmin_logo.svg/2560px-PhpMyAdmin_logo.svg.png" class="card-img-top" alt="...">
                 <div class="card-body pb-2">
                     <p class="card-text">
@@ -151,7 +151,7 @@
         <!-- kolom kiri -->
         <div class="col-5">
             <!-- card milik PHP -->
-            <div class="card m-auto pb-4 shadow" style="width: 24rem;">
+            <div class="card m-auto pb-4 border-0 shadow" style="width: 24rem;">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" class="card-img-top" alt="...">
                 <div class="card-body pb-2">
                     <p class="card-text">
@@ -179,7 +179,7 @@
 
         <!-- kolom kanan -->
         <div class="col-5">
-            <div class="card m-auto pb-4 shadow" style="width: 24rem;">
+            <div class="card m-auto pb-4 border-0 shadow" style="width: 24rem;">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PhpMyAdmin_logo.svg/2560px-PhpMyAdmin_logo.svg.png" class="card-img-top" alt="...">
                 <div class="card-body pb-2">
                     <p class="card-text">
