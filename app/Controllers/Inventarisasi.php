@@ -81,6 +81,10 @@ class Inventarisasi extends BaseController
     //menangkap data yang dikirim
     public function saveCS()
     {
+        //mengubah format tanggal dari html( <input type="date")
+        //menjadi format tanggal yang diterima MySQL
+        $tanggal = $this->request->getVar('tgl-perolehan');
+        $formattedDate = date("Y-m-d H:i:s", strtotime($tanggal));
 
         $data = [
             'nama_barang' => $this->request->getVar('nama-barang'),
