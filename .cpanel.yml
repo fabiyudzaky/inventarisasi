@@ -9,7 +9,7 @@ deployment:
     - /bin/cp README.md $DEPLOYPATH
     - /bin/cp spark $DEPLOYPATH
     - /bin/cp -R app $DEPLOYPATH
-    - /bin/cp -R public $DEPLOYPATH
+
 
   
 
